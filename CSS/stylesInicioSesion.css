@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E4E2DD;
+    color: #171716;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#menu{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+
+    fieldset{
+        border-color: transparent;
+        border-radius: 22px;
+        
+    }
+
+    h1{
+        font-style: italic;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        text-shadow: #4d4c4c 6px 6px 10px;
+        font-size: 46px;
+    }
+
+    .casillas{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #E4E2DD;
+        color: #171716;
+        font-weight: bold;
+        padding: 10px 10px;
+        border-radius: 15px;
+        text-align: left;
+        margin-top: 2%;
+    }
+
+    #botonesregistro{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        background: #E4E2DD;
+        color: #171716;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 22px;
+        padding: 7px 10px;
+        transition: .3s;
+     
+    }
+    
+    #botonesregistro:hover{
+        background: #171716;
+        color: white;
+        font-weight: bold;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+}
+
+/*Diseño del final de la pagina*/
+#final{
+    margin-top: 6%;
+    text-align: center;
+}

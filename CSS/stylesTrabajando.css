@@ -1,0 +1,21 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-style: italic;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 4%;
+}
+
+#gif{
+    text-align: center;
+}

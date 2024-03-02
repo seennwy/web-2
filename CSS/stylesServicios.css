@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #E4E2DD;
+    color: #171716;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #E4E2DD;
+
+    img {
+        width: 20%;
+        float: inline-end;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 0.5%;
+    }
+
+    ul li {
+        display: inline;
+        padding: 5px;
+        float: inline-start;
+        margin-top: 1%;
+    }
+
+    .botonesInicio {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        background: #E4E2DD;
+        color: #171716;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 22px;
+        padding: 7px 10px;
+        transition: .3s;
+    }
+
+    .botonesInicio:hover {
+        background: #171716;
+        color: #E4E2DD;
+        font-weight: bold;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+}
+
+#titulo{
+    font-style: italic;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: #4d4c4c 6px 6px 10px;
+}
+
+.servicios{
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    align-items: center;
+    
+
+    fieldset {
+        border-color: transparent;
+        border-radius: 22px;
+        text-align: left;
+        background-color: #808080;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    img{
+        margin-top: 2%;
+        width: 100%;
+        border-radius: 22px;
+    }
+
+    h1{
+        font-style: italic;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color: black;
+        font-size: 50px;
+        margin-top: 4%;
+        margin-bottom: 10%;
+    }
+    h2{
+        margin-top: -6%;
+        margin-left: 4%;
+        font-style: italic;
+        font-size: 19px;
+        text-shadow: black 6px 6px 10px;
+    }
+    h3{
+        margin-left: 7%;
+        font-size: 19px;
+        text-shadow: black 6px 6px 10px;
+    }
+
+    #premium{
+        text-shadow: yellow 6px 6px 10px;
+    }
+
+    #silver{
+        text-shadow: white 6px 6px 6px;
+    }
+    .botonesComprar{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        background: #171716;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 22px;
+        padding: 7px 10px;
+        transition: .3s;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .botonesComprar:hover {
+        background: #171716;
+        color: #E4E2DD;
+        font-weight: bold;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+}
+
+/*Diseño del final de la pagina*/
+#final{
+    margin-top: 4%;
+    border-top: 20px solid #4d4c4c;
+    border-bottom: 20px solid #4d4c4c;
+    background-color: #4d4c4c;
+    color: #E4E2DD;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 30px;
+}
