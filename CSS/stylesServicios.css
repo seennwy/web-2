@@ -24,7 +24,6 @@ nav {
         display: inline;
         padding: 5px;
         float: inline-start;
-        margin-top: 1%;
     }
 
     .botonesInicio {
@@ -59,18 +58,17 @@ nav {
 .servicios{
     margin-top: 6%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 10fr 10fr 10fr;
     color: white;
     align-items: center;
     
-
     fieldset {
         border-color: transparent;
         border-radius: 22px;
         text-align: left;
         background-color: #808080;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
     img{
@@ -117,24 +115,26 @@ nav {
         font-weight: bold;
         text-decoration: none;
         border-radius: 22px;
-        padding: 7px 10px;
+        padding: 7px;
         transition: .3s;
         margin-left: 120px;
         margin-right: 120px;
+        display: flex;
+	    justify-content: center;
     }
 
     .botonesComprar:hover {
         background: #171716;
         color: #E4E2DD;
         font-weight: bold;
-        border-radius: 12px;
+        border-radius: 6px;
         font-size: 16px;
     }
 }
 
 /*Diseño del final de la pagina*/
 #final{
-    margin-top: 4%;
+    margin-top: 15%;
     border-top: 20px solid #4d4c4c;
     border-bottom: 20px solid #4d4c4c;
     background-color: #4d4c4c;
