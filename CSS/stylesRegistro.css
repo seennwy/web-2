@@ -1,4 +1,9 @@
 body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     padding: 0;
     margin: 0;
@@ -16,11 +21,20 @@ h1 {
     font-size: 46px;
 }
 
-.menu {
+.contenedor {
+    width: 100%;
+  }
 
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
+form {
+    border: 1px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+.menu {
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: left;
 
     .casillas {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -29,13 +43,27 @@ h1 {
         padding: 10px 10px;
         border-radius: 15px;
         margin-top: 2%;
+
+        .genero {
+            font-weight: normal;
+        }
+
+        .casillasGenero{
+            margin-left: 5%;
+            margin-top: 3%;
+        }
+
+        #opcionCorreo{
+            margin-top: 10%;
+            font-weight: normal;
+            letter-spacing: 10%;
+        }
+
     }
 }
 
-
 .botonesFinal {
     text-align: center;
-    margin-top: 2%;
 
     #botonesregistro {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

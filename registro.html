@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/stylesRegistro.css" />
+  <link rel="shortcut icon" href="IMG/logoVisual.png" />
+  <script src="./JS/validacionFormulario.js"></script>
+  <title>Digeam - Registro</title>
+</head>
+
+<body>
+  <div class="contenedor">
+  <form action="trabajando.html" method="post" onsubmit="return validacion()">
+    <h1>Registrarse</h1>
+    <section class="menu">
+      <div class="casillas">
+        <p>
+          <label>
+            Nombre: <br>
+            <input type="text" size="70%" placeholder="Nombre" class="casillas" id="nombre" required>
+          </label>
+        </p>
+        <p>
+          <label>
+            Apellidos: <br>
+            <input type="text" size="70%" placeholder="Apellidos" class="casillas" >
+          </label>
+        </p>
+        <p>
+          <label>
+            Correo electronico: <br>
+            <input type="email" size="70%" placeholder="Correo Electronico" class="casillas" id="correo">
+          </label>
+        </p>
+        <p>
+          <label>
+            Contraseña: <br>
+            <input type="password" size="70%" placeholder="Contraseña" class="casillas"  id="password">
+          </label>
+        </p>
+        <p>
+          <label>
+            Confirmar contraseña: <br>
+            <input type="password" size="70%" placeholder="Confirmar contraseña" class="casillas"  id="password2">
+          </label>
+        </p>
+        <p>
+          Selecciona tu genero: <br>
+          <label class="genero">
+            <label>
+              <input type="radio" name="seleccionGenero" class="casillas"> Hombre
+            </label>
+            <label>
+              <input type="radio" name="seleccionGenero" class="casillasGenero"> Mujer
+            </label>
+            <label>
+              <input type="radio" name="seleccionGenero" class="casillasGenero"> Otre
+            </label>
+          </label>
+        </p>
+        <p id="opcionCorreo">
+          <label>
+            <input type="checkbox" placeholder="Notificaciones" id="checkNotis">
+            Quiero recibir notificaciones por correo de las novedades de DIGEAM
+          </label>
+        </p>
+      </div>
+    </section>
+
+    <p class="botonesFinal">
+      <input type="submit" name="botonValidacion" value="Crear cuenta" id="botonesregistro">
+      <input type="reset" name="botonLimpiar" value="Limpiar datos" id="botonesregistro">
+    </p>
+
+  </form>
+</div>
+
+    <!-- Detalle final de la web -->
+    <section id="final">
+      <a href="index.html" id="enlaceFinal"> DIGEAM® </a>
+    </section>
+  </body>
+</html>
